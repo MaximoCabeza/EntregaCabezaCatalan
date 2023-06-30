@@ -1,0 +1,37 @@
+
+[
+    {
+        "nombre": "Maximo",
+        "edad": 24,
+        "genero": "Hombre",
+        "lista": "Lista C"
+    },
+
+    {
+        "nombre": "Lorena",
+        "edad": 35,
+        "genero": "Mujer",
+        "lista": "Lista B"
+    },
+
+    {
+        "nombre": "Karen",
+        "edad": 40,
+        "genero": "no Binario",
+        "lista": "Lista A"
+    },
+
+    {
+        "nombre": "Axel",
+        "edad": 25,
+        "genero": "Hombre",
+        "lista": "Lista A"
+    },
+
+    {
+        "nombre": "Catalina",
+        "edad": 22,
+        "genero": "Mujer",
+        "lista": "Lista C"
+    }
+]

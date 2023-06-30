@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de usuarios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Urna electoral virtual</h1>
+    <h3>Los candidatos a votar son de la lista A, B y C</h3>
+    <div class="container py-5">
+        <p class="lead">Ingrese sus datos</p>
+        <form>
+            <input id="nombre" type="text" placeholder="Ingrese nombre" class="form-control my-2">
+            <input id="edad" type="text" placeholder="Ingrese edad" class="form-control my-2">
+            <input id="sexo" type="text" placeholder="Genero: Mujer, Hombre, no Binario" class="form-control my-2">
+            <input id="candidato" type="text" placeholder="Elija entre las listas: A, B y C" class="form-control my-2">
+            <button id="boton" class="btn btn-success" type="reset" onclick="capturar()">Agregar</button>
+        </form>
+
+        
+    </div>
+
+    
+
+
+    <div class="container">
+        <table class="table" id="tabla">
+            <thead class="thead-inverse">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Genero</th>
+                    <th>Lista</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <td>Maximo</td>
+                <td>24</td>
+                <td>Hombre</td>
+                <td>Lista C</td>
+            </tbody>
+            <tbody>
+                <td>Lorena</td>
+                <td>35</td>
+                <td>Mujer</td>
+                <td>Lista B</td>
+            </tbody>
+            <tbody>
+                <td>Karen</td>
+                <td>40</td>
+                <td>No Binario</td>
+                <td>Lista A</td>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
